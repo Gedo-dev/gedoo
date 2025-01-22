@@ -1,7 +1,7 @@
 from playwright.sync_api import sync_playwright
 import telebot
 
-API_TOKEN = 'YOUR_TELEGRAM_BOT_TOKEN'
+API_TOKEN = '7277573409:AAHGUx0Mfh4DB31R8VR4SlT2eA1gy2o9vik'
 bot = telebot.TeleBot(API_TOKEN)
 
 @bot.message_handler(commands=['start', 'help'])
